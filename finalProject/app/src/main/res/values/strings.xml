@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">NutrInfo</string>
+
+    <string-array name="tabelaNutricionalReferencias">
+        <item>Carboidratos</item>
+        <item>Proteinas</item>
+        <item>Gorduras</item>
+        <item>Fibras</item>
+        <item>Sódio</item>
+        <item>Valor Energético</item>
+        <item>%VD</item>
+        <item>Medida Caseira</item>
+        <item>Porção</item>
+    </string-array>
+
+
+    <string-array name="descricoesIndexadas">
+        <item>Descricao do vetor</item>
+        <item>
+               \tOs carboidratos são macronutrientes importantes para nosso organismo.\n
+                 \tFornecem energia, por meio da glicose, para que todas as células do nosso
+                corpo desempenhem suas atividades de forma satisfatória. São encontrados
+                em cereais (arroz, trigo, milho), tubérculos (batata, batata-doce, mandioca e
+                cará) e raízes (beterraba, cenoura, nabo, rabanete).
+                \n\n\tNas embalagens de alimentos, são citados na Lista de Ingredientes e os mais listados são:
+            \n\t-Glicose: presente em mel, frutas, xarope de milho, raízes e tubérculos;
+            \n\t-Frutose: encontrada em frutas e mel;
+            \n\t-Lactose: encontrada no leite;
+            \n\t-Sacarose: presente na cana-de-açúcar, beterraba, uva;
+            \n\tA recomendação de ingestão de carboidratos na dieta varia entre 45 a 65 por cento do total de calorias-dia.
+        </item>
+        <item>\tProteínas são os componentes dos alimentos responsáveis pela construção e manutenção dos nossos órgãos, tecidos e células.
+            As proteínas são encontradas carnes, ovos, leites e derivados e também nas leguminosas (feijões, soja, ervilha).
+        \n\tA recomendação é de 1,2-1,4g/kg/dia (ACSM/DC/ADA).</item>
+        <item>\tAs gorduras são as principais fontes de energia do corpo e ajudam na absorção de vitaminas A, D, E e k.
+            As gorduras totais referem-se a soma à soma de todos os tipos de gorduras encontrados em um alimento, tanto de origem animal quanto de
+            origem vegetal.
+            \n\n\tA recomendação diária é de 20 a 35 por cento do total de calorias dia.</item>
+        <item>\tTipo de gordura encontrada em grande quantidade em alimentos
+            industrializados, como as margarinas, cremes vegetais, biscoitos, sorvetes,
+            snacks (salgadinhos prontos), produtos de panificação, alimentos fritos e
+            lanches salgados que utilizam as gorduras vegetais hidrogenadas na sua
+            preparação.
+            \nO consumo desse tipo de gordura deve ser muito reduzido,
+            considerando que o nosso organismo não necessita desse tipo de gordura e
+            ainda porque, quando consumido em grandes quantidades, pode aumentar o
+            risco de desenvolvimento de doenças do coração. Não se deve consumir mais
+            que 2g de gorduras trans por dia.</item>
+        <item>\tTipo de gordura presente em alimentos de origem animal.São exemplos: carnes, toucinho, pele de frango, queijo,
+            leite integral, manteiga, requeijão e iogurte.
+            O consumo desse tipo de gordura deve ser moderado porque, quando consumido em grandes quantidades,
+            pode aumentar o risco de desenvolvimento de doenças do coração.
+            Altos VD significam que o alimento apresenta grande quantidade de gordura saturada em
+            relação á necessidade diária de uma dieta de 2.000 Kcal.
+            \n\n\tDe acordo com o Guia Alimentar para a População Brasileira a recomendação é de até 7 por cento do Valor Energético Total/dia</item>
+        <item>\tAs fibras estão presentes em vários alimentos como frutas, verduras e
+            legumes, feijões e oleaginosas, e cereais integrais. Seu consumo é importante
+            por garantir funcionamento adequado do intestino e prevenir doenças crônicas
+            não transmissíveis como hipercolesterolemia.
+            \nA ingestão adequada de fibra total é de 38 g/dia para homens e 25g/dia para
+            mulheres (IOM, Food and Nutrition Board, 2002).</item>
+        <item>\tEstá presente no sal de cozinha e em alimentos industrializados (salgadinhos de
+            pacote, molhos prontos, embutidos, produtos enlatados com salmoura), devendo ser
+            consumido com moderação, uma vez que o consumo excessivo pode levar ao
+            aumento da pressão arterial. Evite os alimentos que possuem altos VD em sódio.
+            5 gramas de sal é o mesmo que 1 (uma) colher de chá rasa, o que inclui o sal já
+            presente nos alimentos industrializados e o adicionado às refeições. Esta quantidade
+            atende às necessidade de sódio do corpo.
+            Consumir menos de 5 gramas de sal por dia ajuda a manter a pressão arterial
+            adequada, diminuindo os riscos de infarto e de derrame.
+            \n\n-Deficiencia de sódio: Letargia, fraqueza, convulsões.
+            \n\n-Excesso de sódio: Cefaléia, delírio, parada respiratória, hipertensão, eritema da pele</item>
+        <item>\tPercentual de valor diário (VD) é um número em percentual que indica o
+            quanto determinado produto possui de energia e nutriente com base em uma
+            dieta de 2000 kcal. Lembrando que cada nutriente apresenta um valor diferente
+            para se calcular o VD.</item>
+        <item>\tMedida Caseira: Indica a medida normalmente utilizada pelo consumidor para medir
+            alimentos. Por exemplo: fatias, unidades, pote, xícaras, copos, colheres de sopa.</item>
+        <item>\tPorção é a quantidade media que deve ser usualmente consumida por pessoas
+            saudáveis.</item>
+        <item>\tSão substâncias adicionadas a alimentos com a função de acentuar o gosto ácido (azedo). Também influenciam na conservação
+                microbiológica de alimentos.
+                \n\n\tEXEMPLO DE ACIDULANTES: Ácido cítrico, Ácido fosfórico, Ácido Fumárico, Ácido Láctico.</item>
+        <item>\tÉ um aditivo alimentar que intenciona inibir a efusão e a efervescência durante o preparo e o consumo de determinado alimento. É
+                encontrado em refrigerantes e empanados.
+                \n\n\tEXEMPLO DE ANTIEXPUMANTE: Dimetilpolisiloxana.</item>
+        <item>\tÉ uma substância que retarda o aparecimento de alteração oxidativa no alimento.\n
+                \n\tEXEMPLO: Ácido ascórbico, Ácido cítrico.</item>
+        <item>\tSão aditivos utilizados para dar ou realçar o sabor e o aroma dos alimentos.\n
+                \n\tEXEMPLOS: Aroma artificial de fumaça, Aroma artificial.</item>
+        <item>\tSão substâncias que são capazes de diminuir características higroscópicas (que absorvem umidade do ar) dos alimentos.\n
+                \tImpedindo assim, que, partículas individuais do alimento se junte a outras, em decorrência da umidade.\n
+                \n\tEXEMPLOS: Carbonato de sódio, Fosfato Tricálcico.</item>
+        <item>\tTrata-se de qualquer substância adicionada com a finalidade de mudar a sua cor.\n
+            \n\tEXEMPLOS: Corantes naturais, Corantes idênticos aos naturais, Corante Caramelo, Corante Amarelo Tartrazina.</item>
+        <item>\tConservantes são substâncias que inibem ou previnem estragos causados por fungos, bactérias, e outros microrganismos.\n
+                \n\tEXEMPLOS: Ácido Benzóico e seus sais de sódio, cálcio e potássio, Ácido sórbico e seus sais de sódio, cálcio e potássio.</item>
+        <item>\tSão substancias de baixo ou inexistente valor energético que proporcionam a um alimento o gosto doce.\n
+                \n\tEXEMPLOS: Aspartame, Manitol, Sorbitol, Sacarina, Ciclamato.</item>
+        <item>\tSão substâncias químicas que conferem aumento da viscosidade sem alterar outras propriedades do alimento.\n
+                \n\tEXEMPLO: Agar-Agar, Goma Arábica, Goma Guar, Goma Xantana.</item>
+        <item>\tSão substâncias que asseguram as características físicas de emulsões e suspensões. Sendo usualmente aplicadas em
+                conservas, laticínios, sobremesas e alimentos processados.\n
+                \n\tEXEMPLOS: Alginato de propileno glicol, Citrato de sódio, Gluconato de cálcio, Lectina, Sulfato de Cálcio.</item>
+        <item>São substâncias que evitam a perda de umidade de determinado alimento.
+                \n\n\tEXEMPLOS: lactato de sódio, Glicerol, Sorbitol.</item>
+        <item> \t-O ingrediente que se encontra em primeiro lugar na lista de ingredientes, está presente em maior quantidade.
+                \n\n\t-Atenção, gordura trans, pode aparecer na lista de ingredientes como Gordura Hidrogenada.\n
+                \n\n\t-Intolerantes ao Gluten devem estar atentos quando houver na lista de ingredientes: “Contém traços de soja/ trigo” .</item>
+
+
+    </string-array>
+    <string name="title_activity_final_activity">final_activity</string>
+    <string name="search_hint">pesquisar</string>
+
+</resources>

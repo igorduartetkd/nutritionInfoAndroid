@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.igor.android.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:parentActivityName=".decisaoActivity"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".decisaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value="@xml/searchable"/>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".decisaoActivity"/>
+
+
+        </activity>
+
+        <activity
+            android:name=".final_activity"
+            android:label="@string/title_activity_final_activity"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".decisaoActivity"
+            android:noHistory="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value="@xml/searchable" />
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".decisaoActivity"/>
+
+        </activity>
+
+    </application>
+
+</manifest>
